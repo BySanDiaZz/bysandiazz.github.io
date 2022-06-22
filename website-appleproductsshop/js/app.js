@@ -81,7 +81,7 @@ function addCart(productID){
 
             cartCant = document.querySelector('#cart-cant');
             cartCant.textContent = cant;
-        }
+        } 
     }
 }
 
