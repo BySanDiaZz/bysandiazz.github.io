@@ -1,6 +1,6 @@
 
 window.onload = function dataJSON() {
-    const requestURL = 'https://bysandiazz.github.io/website-appleproductsshop/data/products.json';
+    const requestURL = 'http://bysandiazz.github.io/website-appleproductsshop/data/products.json';
     const request = new XMLHttpRequest();
     request.open('GET', requestURL);
     request.responseType = 'json';
