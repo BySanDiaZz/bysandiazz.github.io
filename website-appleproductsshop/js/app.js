@@ -1,6 +1,6 @@
 
 window.onload = function dataJSON() {
-    const requestURL = 'https://raw.githubusercontent.com/BySanDiaZz/bysandiazz-data.github.io/main/data/products.json';
+    const requestURL = 'http://raw.githubusercontent.com/BySanDiaZz/bysandiazz-data.github.io/main/data/products.json';
     const request = new XMLHttpRequest();
     request.open('GET', requestURL);
     request.responseType = 'json';
